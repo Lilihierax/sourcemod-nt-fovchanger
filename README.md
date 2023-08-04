@@ -29,7 +29,7 @@ Clients are required to use a patched client.dll in order to use functionality o
 
 ## Important notes regarding binary patching
 
-The plugin requires clients to have patched game binaries in order to provide any meaningful functionality to players. Binary patching is considered a high-risk activity and may result in anticheat-related consequences. The absence of VAC in Neotokyo has not been confirmed by me, Lilihierax, and this plugin-patch concept relies on empirical observations from the community using NTCore's LAA patch extensively without unforeseen consequences as well as [comments made by Valve Software employees](https://github.com/ValveSoftware/source-sdk-2013/issues/76#issuecomment-21562961).
+The plugin requires clients to have patched game binaries in order to provide any meaningful functionality to players. Binary patching is considered a high-risk activity and may result in anticheat-related consequences. The absence of VAC in Neotokyo has not been throughoughly confirmed by me, Lilihierax, and this plugin-patch concept relies on empirical observations from the community using NTCore's LAA patch extensively over a long period of time without unforeseen consequences as well as [comments made by Valve Software employees](https://github.com/ValveSoftware/source-sdk-2013/issues/76#issuecomment-21562961).
 
 Unfortunately it is impossible to know how Valve will treat Source-engine mods such as Neotokyo in the future (in the context of anticheating).
 
