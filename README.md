@@ -36,7 +36,8 @@ Unfortunately it is impossible to know how Valve will treat Source-engine mods s
 Make any modifications to your game binaries at your own risk.
 
 ## Usage
-* Players can access the FoV menu by typing `!fov` in chat or set their desired field of view instantly by including it as a parameter, ex. `!fov 95` will set the player's field of view to 95 degrees
+* Players can access the FoV menu by typing `!fov` in chat
+* Players can also set their desired field of view instantly by including it as a parameter, ex. `!fov 95` will set the player's field of view to 95 degrees
 * Server operators can define the range of acceptable field of view values by using `sm_nt_fov_min` and `sm_nt_fov_max`
 
 ## Reporting issues
