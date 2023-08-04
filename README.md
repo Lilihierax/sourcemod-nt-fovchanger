@@ -33,6 +33,10 @@ The plugin requires clients to have patched game binaries in order to provide an
 
 Make any modifications to your game binaries at your own risk.
 
+## Usage
+* Players can access the FoV menu by typing `!fov` in chat or set their desired field of view instantly by including it as a parameter, ex. `!fov 95` will set the player's field of view to 95 degrees
+* Server operators can define the range of acceptable field of view values by using `sm_nt_fov_min` and `sm_nt_fov_max`
+
 ## Authors
 * Plugin code and development by Rain
 * Original research and proof of concept plugin by Lilihierax
