@@ -18,3 +18,10 @@ This plugin detects clients running appropriately patched game binaries and allo
 ## Installation (Client)
 * Download the patched binaries from `TBA` and overwrite existing file in `...\SteamLibrary\steamapps\common\NEOTOKYO\NeotokyoSource\bin\client.dll`
 * Alternatively download the Python binary patcher script and run it
+
+## Changelog
+ * 0.1.0 - Initial debug release (March 2023) for NEOTOKYO° (App ID: 244630, Build ID: 1981783)
+ * 0.2.0 - Added min/max bounds for the FoV
+           Added optional graphical menu for adjusting the FoV
+           Added binary patch detection using the "fovispatched" client cvar
+           Added clientprefs
