@@ -9,7 +9,7 @@ During the development of the game the default player field of view was fixed to
 ## What this plugin does
 This plugin detects clients running appropriately patched game binaries and allows them to set their field of view by using the `!fov` command in-game. If a unpatched client tries to use the !fov command they are communicated a link to download the patch. Client preferences are stored for consistency between sessions.
 
-Clients are required to use a patched client.dll in order to use functionality of this plugin. Client binaries are patched to restore the functionality between networked m_iDefaultFOV and rendered field of view. Additionally, a "magic byte" patch detection is implemented. The plugin checks for the presence of a custom client cvar in order to confirm the presence of the patch.
+Clients are required to use a patched client.dll in order to use functionality of this plugin. Client binaries are patched to restore the connection between a netprop (m_iDefaultFOV) and a field of view engine cvar. Additionally, a "magic byte"-style patch detection is implemented by renaming a unused engine cvar. The plugin checks for the presence of the modified engine cvar in order to confirm the presence of the patch.
 
 ## Build requirements
 * SourceMod 1.8 or newer
