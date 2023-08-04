@@ -23,8 +23,8 @@
 
 bool g_bIsUsingPatchedFov[NEO_MAX_PLAYERS + 1];
 
-char g_sPluginTag[] = "[nt_fov]";
-char g_sDownloadUrl[] = "https://bonahnsa.com/mods.html";
+char g_sPluginTag[] = "[nt_fovchanger]";
+char g_sDownloadUrl[] = "https://github.com/Lilihierax/sourcemod-nt-fovchanger/";
 
 ConVar g_cMinFov = null, g_cMaxFov = null;
 
@@ -32,12 +32,12 @@ Cookie g_ccFov = null;
 
 public Plugin myinfo =
 {
-    name              = "Neotokyo Custom FoV Adjust",
+    name              = "Neotokyo FoV Changer",
     version           = PLUGIN_VERSION,
-    description       = "Experimental SM plugin for NEOTOKYO° enabling \
-players to set their preferred field-of-view. Clients are required to \
+    description       = "SM plugin for NEOTOKYO° enabling \
+players to set their preferred field of view. Clients are required to \
 have their game binaries (client.dll) patched.",
-    author            = "Plugin code: Rain, Client binary patch: Lilihierax",
+    author            = "Plugin development: Rain, Research and client binary patch: Lilihierax",
     url               = g_sDownloadUrl
 };
 
