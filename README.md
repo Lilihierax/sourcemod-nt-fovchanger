@@ -18,10 +18,14 @@ Clients are required to use a patched client.dll in order to use functionality o
 * Move the compiled .smx binary to `addons/sourcemod/plugins`
 
 ## Installation (Client)
-* Download the patched binaries from `TBA` and overwrite existing file in `...\SteamLibrary\steamapps\common\NEOTOKYO\NeotokyoSource\bin\client.dll`
+* Create a backup of client.dll in `...\SteamLibrary\steamapps\common\NEOTOKYO\NeotokyoSource\bin\`
+* Download the patched binaries (client.dll) from `TBA` and overwrite existing file in `...\SteamLibrary\steamapps\common\NEOTOKYO\NeotokyoSource\bin\`
 * Run any other binary patcher such as NTCore's LAA patch
 * Alternatively download the Python binary patcher script, point it to your existing LAA-patched or LAA-unpatched client.dll and run it
-* Please note that reinstalling the game or verifying integrity of game files on Steam will replace the patched binaries with original game files
+
+## Uninstallation (Client)
+* Overwrite patched client.dll with a backup of the original file
+* Note that verifying integrity of game files on Steam will also replace the patched binaries with original game files although this runs the risk of possibly losing other modifications as well
 
 ## Important notes regarding binary patching
 
