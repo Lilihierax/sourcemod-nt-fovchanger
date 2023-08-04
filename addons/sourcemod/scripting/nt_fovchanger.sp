@@ -37,7 +37,7 @@ public Plugin myinfo =
     description       = "SM plugin for NEOTOKYO° enabling \
 players to set their preferred field of view. Clients are required to \
 have their game binaries (client.dll) patched.",
-    author            = "Plugin development: Rain, Research and client binary patch: Lilihierax",
+    author            = "Rain, Lilihierax",
     url               = g_sDownloadUrl
 };
 
