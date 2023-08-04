@@ -15,7 +15,7 @@ Clients are required to use a patched client.dll in order to use functionality o
 * SourceMod 1.8 or newer
 
 ## Installation (Server)
-* Move the compiled .smx binary to `addons/sourcemod/plugins`
+* Move the compiled .smx binary to `...\addons\sourcemod\plugins\`
 
 ## Installation (Client)
 * Create a backup of client.dll in `...\SteamLibrary\steamapps\common\NEOTOKYO\NeotokyoSource\bin\`
