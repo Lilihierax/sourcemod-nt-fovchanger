@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
-"""FoV patch for the NT client binary with SourceMod plugin controllable adjustment support."""
+"""FOV patch for for the NT client binary with SourceMod plugin controllable adjustment support."""
 
 import os
 import shutil
 import sys
 
 
-def create_clientdll_backup(file_path):
+def create_clientdll_backup(file_path: str) -> bool:
     """Backs up the file_path as file_path.backup, if the backup doesn't exist yet."""
     backup_file = f"{file_path}.backup"
     if not os.path.exists(backup_file):
@@ -18,9 +18,8 @@ def create_clientdll_backup(file_path):
     return False
 
 
-def patch_closecaption_to_fovispatched(file_path):
+def patch_closecaption_to_fovispatched(file_path: str) -> None:
     """Patch the first instance of b"closecaption" to b"fovispatched".
-
     Expects to find exactly 5 instances of b"closecaption" bytes,
     as is the case with a binary where this hasn't been modified.
     """
@@ -39,7 +38,6 @@ def patch_closecaption_to_fovispatched(file_path):
                 offset += 1
             except ValueError:
                 break
-        print(f"{matches=}")
         assert len(matches) == 5
         # The target offset here is the first match.
         closecaption_offset = matches[0]
@@ -49,12 +47,12 @@ def patch_closecaption_to_fovispatched(file_path):
         print(f"Successfully patched byte(s) at offset: {closecaption_offset}")
 
 
-def patch_fov_entprop(file_path):
-    """Patch the FoV entprop of client."""
+def patch_fov_entprop(file_path: str):
+    """Patch the FOV entprop of client."""
     raise NotImplementedError  # FIXME
 
 
-def main():
+def main() -> None:
     """Entry point."""
     if len(sys.argv) != 2:
         print(
