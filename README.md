@@ -4,7 +4,7 @@ A plugin for Neotokyo that provides the following change:
 Allow patched clients to set their preferred field of view.
 
 ## Background
-During the development of the game the default player field of view was fixed to 75 degrees which has been reported to cause motion sickness in some players. This plugin and client patch aim to provide a long needed QoL update by allowing the player to set their preferred field of view.
+During the development of the game the default player field of view was fixed to 75 degrees which has been reported to cause motion sickness in some players. This plugin and client patch aim to provide a long needed QoL update by allowing players to set their preferred field of view.
 
 ## What this plugin does
 This plugin detects clients running appropriately patched game binaries and allows them to set their field of view by using the `!fov` command in-game. If a unpatched client tries to use the command they are communicated a link to download the patch. Client preferences are stored for consistency between sessions.
@@ -23,14 +23,14 @@ Clients are required to use a patched client.dll in order to use the functionali
 * Overwrite existing file in `...\SteamLibrary\steamapps\common\NEOTOKYO\NeotokyoSource\bin\`
 * Run any other binary patcher such as NTCore's LAA patch
 * Alternatively download the Python binary patcher script, point it to your existing LAA-patched or LAA-unpatched client.dll and run it
-* To-do: Update instructions when the script is finished! `#f03c15`
+* To-do: Update instructions when the script is finished!
 
 ## Uninstallation (Client)
 * Overwrite patched client.dll with a backup of the original file
 * Note that verifying integrity of game files on Steam will also replace the patched binaries with original game files although this runs the risk of possibly losing other modifications as well
 
 ## Important notes regarding binary patching
-The plugin requires clients to have patched game binaries in order to provide any meaningful functionality to players. Binary patching is considered a high-risk activity and may result in anticheat-related consequences. The absence of VAC in Neotokyo has not been throughoughly confirmed by me, Lilihierax, and this plugin-patch concept relies on empirical observations from the community using NTCore's LAA patch extensively over a long period of time without unforeseen consequences as well as [comments made by Valve Software employees](https://github.com/ValveSoftware/source-sdk-2013/issues/76#issuecomment-21562961).
+The plugin requires clients to have patched game binaries in order to provide any meaningful functionality to players. Binary patching is considered a high-risk activity and may result in anticheat-related consequences. The absence of VAC in Neotokyo has not been throughoughly confirmed by me, Lilihierax, and the usability of this plugin-patch concept relies on empirical observations from the community using NTCore's LAA patch extensively over a long period of time without unforeseen consequences as well as [comments made by Valve Software employees](https://github.com/ValveSoftware/source-sdk-2013/issues/76#issuecomment-21562961).
 
 Unfortunately it is impossible to know how Valve will treat Source-engine mods such as Neotokyo in the future (in the context of anticheating).
 
@@ -49,7 +49,7 @@ Make any modifications to your game binaries at your own risk.
 * Plugin and patcher development by Rain
 * Original research and proof of concept plugin by Lilihierax
 * Additional thanks to Kudegra and Jef for their efforts in reverse engineering Neotokyo
-* Additional thanks to Dennogin and Milk for testing
+* Additional thanks to Dennogin and Milk for playtesting
 
 ## Changelog
 * 0.1.0 - Initial proof of concept release (March 2023) for NEOTOKYO° (Steam App ID: 244630, Steam Build ID: 1981783) by Lilihierax
