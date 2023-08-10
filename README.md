@@ -23,7 +23,7 @@ Clients are required to use a patched client.dll in order to use the functionali
 * Overwrite existing file in `...\SteamLibrary\steamapps\common\NEOTOKYO\NeotokyoSource\bin\`
 * Run any other binary patcher such as NTCore's LAA patch
 * Alternatively download the Python binary patcher script, point it to your existing LAA-patched or LAA-unpatched client.dll and run it
-* - To-do: Update instructions when the script is finished!
+- To-do: Update instructions when the script is finished!
 
 ## Uninstallation (Client)
 * Overwrite patched client.dll with a backup of the original file
