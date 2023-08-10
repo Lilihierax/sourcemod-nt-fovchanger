@@ -22,14 +22,13 @@ Clients are required to use a patched client.dll in order to use the functionali
 * Download patched binaries (client.dll) from [sourcemod-nt-fovchanger/client/bin/](client/bin/)
 * Overwrite existing file in `...\SteamLibrary\steamapps\common\NEOTOKYO\NeotokyoSource\bin\`
 * Run any other binary patcher such as NTCore's LAA patch
-* Alternatively download the Python binary patcher script, point it to your existing LAA-patched or LAA-unpatched client.dll and run it (Update instructions when the script is finished!)
+* Alternatively download the Python binary patcher script, point it to your existing LAA-patched or LAA-unpatched client.dll and run it `#FF0000` (To-do: Update instructions when the script is finished!)
 
 ## Uninstallation (Client)
 * Overwrite patched client.dll with a backup of the original file
 * Note that verifying integrity of game files on Steam will also replace the patched binaries with original game files although this runs the risk of possibly losing other modifications as well
 
 ## Important notes regarding binary patching
-
 The plugin requires clients to have patched game binaries in order to provide any meaningful functionality to players. Binary patching is considered a high-risk activity and may result in anticheat-related consequences. The absence of VAC in Neotokyo has not been throughoughly confirmed by me, Lilihierax, and this plugin-patch concept relies on empirical observations from the community using NTCore's LAA patch extensively over a long period of time without unforeseen consequences as well as [comments made by Valve Software employees](https://github.com/ValveSoftware/source-sdk-2013/issues/76#issuecomment-21562961).
 
 Unfortunately it is impossible to know how Valve will treat Source-engine mods such as Neotokyo in the future (in the context of anticheating).
@@ -41,14 +40,15 @@ Make any modifications to your game binaries at your own risk.
 * Players can also set their desired field of view instantly by including it as a parameter, e.g. `!fov 95`
 * Server operators can define the range of acceptable field of view values by using `sm_nt_fov_min` and `sm_nt_fov_max`
 
-## Reporting issues
-
-* Issues and glitches caused by this modification can be also reported on Active Neotokyo Players ("ANP") [Discord server](https://discord.gg/JJBMzeqfdh)
+## Known issues
+* Zooming with weapons can cause snapping-like behavior. This is the most prominent when a weapon is zoomed out while a high field of view is being used
+* Issues and glitches caused by this modification can be reported as a GitHub issue or alternatively on Active Neotokyo Players ("ANP") [Discord server](https://discord.gg/JJBMzeqfdh)
 
 ## Authors
-* Plugin code and development by Rain
+* Plugin and patcher development by Rain
 * Original research and proof of concept plugin by Lilihierax
 * Additional thanks to Kudegra and Jef for their efforts in reverse engineering Neotokyo
+* Additional thanks to Dennogin and Milk for testing
 
 ## Changelog
 * 0.1.0 - Initial proof of concept release (March 2023) for NEOTOKYO° (Steam App ID: 244630, Steam Build ID: 1981783) by Lilihierax
