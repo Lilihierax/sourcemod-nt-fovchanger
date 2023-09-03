@@ -19,8 +19,8 @@ def patch_file(file_path):
 
         # Define the patch data and offsets
         patch_data = [
-            (b"\xD8\x8A\x3F", 0x2166B2),  # 3 bytes at offset 2166B2 (h)
-            (b"\x66\x6F\x76\x69\x73\x70\x61\x74\x63\x68\x65\x64", 0x30940C),  # 12 bytes at offset 30940C (h)
+            (b"\xD8\x8A\x3F", 0x2166B2),  # Netprop, 3 bytes at offset 2166B2 (h)
+            (b"\x66\x6F\x76\x69\x73\x70\x61\x74\x63\x68\x65\x64", 0x30940C),  # Magic byte, 12 bytes at offset 30940C (h)
         ]
 
         # Read the binary file
@@ -41,7 +41,7 @@ def patch_file(file_path):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python patch_dll.py <dll_file_path>")
+        print("Usage: python nt_fovchanger_client_patch.py <client_dll_file_path>")
         sys.exit(1)
 
     dll_file_path = sys.argv[1]
@@ -51,4 +51,3 @@ if __name__ == "__main__":
 
     # Patch the .dll
     patch_file(dll_file_path)
-    
