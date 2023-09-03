@@ -1,3 +1,5 @@
+![nt_fovchanger_banner_gif](https://github.com/Lilihierax/sourcemod-nt-fovchanger/assets/140167708/27eb738c-5459-4fa4-98c3-06ef83342219)
+
 # sourcemod-nt-fovchanger
 A plugin for Neotokyo that provides the following change:
 
