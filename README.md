@@ -39,7 +39,7 @@ Unfortunately it is impossible to know how Valve will treat Source-engine mods s
 Make any modifications to your game binaries at your own risk.
 
 ## Usage
-* Players can access the FoV menu by typing `!fov` in chat
+* Players can access the FOV menu by typing `!fov` in chat
 * Players can also set their desired field of view instantly by including it as a parameter, e.g. `!fov 95`
 * Server operators can define the range of acceptable field of view values by using `sm_nt_fov_min` and `sm_nt_fov_max`
 
@@ -56,4 +56,4 @@ Make any modifications to your game binaries at your own risk.
 
 ## Changelog
 * 0.1.0 - Initial proof of concept release (March 2023) for NEOTOKYO° (Steam App ID: 244630, Steam Build ID: 1981783) by Lilihierax
-* 0.2.0 - Initial release of reworked plugin by Rain: added min/max bounds for the FoV, optional graphical menu, binary patch detection using the "fovispatched" client cvar and clientprefs
+* 0.2.0 - Initial release of reworked plugin by Rain: added min/max bounds for the FOV, optional graphical menu, binary patch detection using the "fovispatched" client cvar and clientprefs
