@@ -47,7 +47,7 @@ Make any modifications to your game binaries at your own risk.
 
 ## Authors
 * Plugin development by Rain
-* Patcher development by Rain, Lilihierax
+* Patcher by Rain, Lilihierax
 * Original research and proof of concept plugin by Lilihierax
 * Additional thanks to Kudegra and Jef for their efforts in reverse engineering Neotokyo
 * Additional thanks to Dennogin and Milk for playtesting
