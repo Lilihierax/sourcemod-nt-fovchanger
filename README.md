@@ -42,7 +42,7 @@ Make any modifications to your game binaries at your own risk.
 * Server operators can define the range of acceptable field of view values by using `sm_nt_fov_min` and `sm_nt_fov_max`
 
 ## Known issues
-* Zooming with weapons can cause snapping-like behavior. This is the most prominent when a weapon is zoomed out while a high field of view is being used
+* Zooming with weapons can cause snapping-like behavior. This effect is most prominent when a weapon is zoomed out while a high field of view is being used
 * Issues and glitches caused by this modification can be reported as a GitHub issue or alternatively on Active Neotokyo Players ("ANP") [Discord server](https://discord.gg/JJBMzeqfdh)
 
 ## Authors
