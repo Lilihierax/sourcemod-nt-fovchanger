@@ -22,8 +22,8 @@ Clients are required to use a patched client.dll in order to use the functionali
 * Download patched binaries (client.dll) from [sourcemod-nt-fovchanger/client/bin/](client/bin/)
 * Overwrite existing file in `...\SteamLibrary\steamapps\common\NEOTOKYO\NeotokyoSource\bin\`
 * Run any other binary patcher such as NTCore's LAA patch
-* Alternatively download the Python binary patcher script and follow [these instructions](https://github.com/Lilihierax/sourcemod-nt-fovchanger/tree/main/client/patch)] to patch the file
-* Alternatively download a hex editor of your choice and follow [these instructions](https://github.com/Lilihierax/sourcemod-nt-fovchanger/tree/main/client/patch)] to manually patch the file
+* Alternatively download the Python binary patcher script and follow [these instructions](https://github.com/Lilihierax/sourcemod-nt-fovchanger/tree/main/client/patch) to patch the file
+* Alternatively download a hex editor of your choice and follow [these instructions](https://github.com/Lilihierax/sourcemod-nt-fovchanger/tree/main/client/patch) to manually patch the file
 
 ## Uninstallation (Client)
 * Overwrite patched client.dll with a backup of the original file
