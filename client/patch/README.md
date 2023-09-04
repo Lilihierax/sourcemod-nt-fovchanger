@@ -2,6 +2,7 @@
 
 * Download and install [Python](https://www.python.org/downloads/)
 * Run the script including the path to your client.dll as the argument
+* A backup of the original file will be created automatically in the same folder
 * For example: `python "c:/Users/Username/Desktop/nt_fovchanger_client_patch.py" "C:\Program Files (x86)\Steam\steamapps\common\NEOTOKYO\NeotokyoSource\bin\client.dll"`
 
 ## Manual patching with a hex editor
@@ -17,3 +18,7 @@
 ![nt_fovchanger_manual_patching_02](https://github.com/Lilihierax/sourcemod-nt-fovchanger/assets/140167708/465bc492-d3af-4915-8ca1-5d762acc2aa6)
 
 * Save the file
+
+# Uninstallation
+* Overwrite patched client.dll with a backup of the original file
+* Note that verifying integrity of game files on Steam will also replace the patched binaries with original game files although this runs the risk of possibly losing other modifications as well
