@@ -2,7 +2,7 @@
 
 * Download and install [Python](https://www.python.org/downloads/)
 * Run the script including the path to your client.dll as the argument
-* For example: `python "c:/Users/User/Desktop/nt_fovchanger_client_patch.py" "C:\Program Files (x86)\Steam\steamapps\common\NEOTOKYO\NeotokyoSource\bin\client.dll"`
+* For example: `python "c:/Users/Username/Desktop/nt_fovchanger_client_patch.py" "C:\Program Files (x86)\Steam\steamapps\common\NEOTOKYO\NeotokyoSource\bin\client.dll"`
 
 ## Manual patching with a hex editor
 * Open your preferred hex editor, Maël Hörz's [HxD](https://mh-nexus.de/en/hxd/) works nicely and is freeware
