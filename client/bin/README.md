@@ -1,4 +1,4 @@
-# Installation (Client)
+# Installation
 * Create a backup of client.dll in `...\SteamLibrary\steamapps\common\NEOTOKYO\NeotokyoSource\bin\`
 * Download patched binaries (client.dll) from [sourcemod-nt-fovchanger/client/bin/](client/bin/)
 * Overwrite existing file in `...\SteamLibrary\steamapps\common\NEOTOKYO\NeotokyoSource\bin\`
