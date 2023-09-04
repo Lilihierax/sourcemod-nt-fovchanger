@@ -6,6 +6,7 @@
 * For example: `python "c:/Users/Username/Desktop/nt_fovchanger_client_patch.py" "C:\Program Files (x86)\Steam\steamapps\common\NEOTOKYO\NeotokyoSource\bin\client.dll"`
 
 ## Manual patching with a hex editor
+* Create a backup of client.dll in `...\SteamLibrary\steamapps\common\NEOTOKYO\NeotokyoSource\bin\`
 * Open your preferred hex editor, Maël Hörz's [HxD](https://mh-nexus.de/en/hxd/) works nicely and is freeware
 * To patch the netprop go to offset `2166B2` (h)
 * Change the next three bytes from `64 17 30` to `D8 8A 3F`
