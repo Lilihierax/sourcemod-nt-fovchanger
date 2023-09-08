@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
-# Patch for the NT client binary (client.dll) to enable SourceMod plugin support for field-of-view control.
+# Patches the NT client binary (client.dll) to enable SourceMod plugin support for field-of-view control.
+# 3 bytes are patched at offset 2166B2 (h) to connect m_iDefaultFOV with a engine fov cvar.
+# 12 bytes are patched at offset 30940C (h) to modify a unused engine cvar to be used for patch detection from server side. 
 
 import os
 import shutil
