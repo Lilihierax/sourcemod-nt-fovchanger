@@ -36,7 +36,7 @@ The plugin requires clients to have patched game binaries in order to provide an
 
 Unfortunately it is impossible to know how Valve will treat Source-engine mods such as Neotokyo in the future (in the context of anticheating).
 
-Make any modifications to your game binaries at your own risk.
+I will not be held responsible for any damages, incl. changes in VAC standing, resulting from the use of this patch. Make any modifications to your game binaries at your own risk.
 
 ## Usage
 * Players can access the FOV menu by typing `!fov` in chat
