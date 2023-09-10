@@ -8,11 +8,16 @@ import os
 import shutil
 import sys
 
-def create_file_backup(file_path):
+def create_file_backup(file_path: str) -> bool:
+
+    # Backs up the file_path as file_path.bak, if the backup doesn't exist yet
     backup_file = f"{file_path}.bak"
-    shutil.copy(file_path, backup_file)
-    print(f"Backup created: {backup_file}")
-    return backup_file
+    if not os.path.exists(backup_file):
+        print(f'Backing up file "{file_path}" as "{backup_file}"')
+        shutil.copyfile(file_path, backup_file)
+        return True
+    print(f'Skipping writing of backup file "{backup_file}" since it already exists.')
+    return False
 
 def patch_file(file_path):
     try:
@@ -30,7 +35,8 @@ def patch_file(file_path):
             for data, offset in patch_data:
                 dll_file.seek(offset)
                 dll_file.write(data)
-
+        offset_str = ", ".join(hex(offset) for _, offset in patch_data)
+        print(f"Successfully patched byte(s) at offset(s): {offset_str}")
         print("Patching successful!")
 
     except Exception as e:
@@ -41,15 +47,22 @@ def patch_file(file_path):
             print("Backup restored.")
         sys.exit(1)
 
-if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: python nt_fovchanger_client_patch.py <client_dll_file_path>")
-        sys.exit(1)
+def main() -> None:
 
-    dll_file_path = sys.argv[1]
-    if not os.path.isfile(dll_file_path):
-        print("Error: The specified file does not exist.")
-        sys.exit(1)
+    # Entry point
+    if len(sys.argv) != 2:
+        print(
+            f'Usage: python "{sys.argv[0]}" <client_dll_file_path>'
+        )
+        return
+
+    file_path = sys.argv[1]
+    assert os.path.exists(file_path), f"Path doesn't exist: {file_path}"
+    assert os.path.isfile(file_path), f"Path is not a file: {file_path}"
 
     # Patch the .dll
-    patch_file(dll_file_path)
+    patch_file(file_path)
+    sys.exit(0)
+
+if __name__ == "__main__":
+    main()
