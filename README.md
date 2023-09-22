@@ -45,6 +45,8 @@ I will not be held responsible for any damages, incl. changes in VAC standing, r
 
 ## Known issues
 * Zooming with weapons can cause snapping-like behavior. This effect is most prominent when a weapon is zoomed out while a high field of view is being used
+* Viewmodel field of view stays fixed and is not affected by changes to world field of view
+* Prop fade issues can be triggered by high field of view values, i.e. distant props (level assets) stop being rendered - and providing occlusion - prematurely at relatively high distances from the player
 * Issues and glitches caused by this modification can be reported as a GitHub issue or alternatively on Active Neotokyo Players ("ANP") [Discord server](https://discord.gg/JJBMzeqfdh)
 
 ## Authors
