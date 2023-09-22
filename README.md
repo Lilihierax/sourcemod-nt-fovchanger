@@ -14,7 +14,7 @@ This plugin detects clients running appropriately patched game binaries and allo
 Clients are required to use a patched client.dll in order to use the functionality of this plugin. Client binaries are patched to restore the connection between a netprop (m_iDefaultFOV) and a field of view engine cvar. Additionally, a "magic byte"-style patch detection is implemented by renaming a unused engine cvar. The plugin checks for the presence of the modified engine cvar in order to confirm the presence of the patch.
 
 ## Build requirements
-* SourceMod 1.7 or newer
+* SourceMod 1.11 or newer
 
 ## Installation (Server)
 * Move the compiled .smx binary to `...\addons\sourcemod\plugins\`
