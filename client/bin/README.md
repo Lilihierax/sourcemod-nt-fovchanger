@@ -2,7 +2,6 @@
 * Create a backup of client.dll in `...\SteamLibrary\steamapps\common\NEOTOKYO\NeotokyoSource\bin\`
 * Download patched binaries (client.dll) from [sourcemod-nt-fovchanger/client/bin/](client/bin/)
 * Overwrite existing file in `...\SteamLibrary\steamapps\common\NEOTOKYO\NeotokyoSource\bin\`
-* Run any other binary patcher such as NTCore's LAA patch
 
 # Uninstallation
 * Overwrite patched client.dll with a backup of the original file
@@ -15,5 +14,4 @@
 ## SHA-256 hash for modified Neotokyo client.dll
 * Steam App ID: 244630, Steam Build ID: 1981783
 * Netprop and magic byte patched
-* No LAA patch applied
 * SHA-256 hash: `0FBD61E2F2BA5A0C682E033FFBC2B56804E2056E737A3D6200FAE8060805BA2F`
