@@ -23,7 +23,6 @@ Clients are required to use a patched client.dll in order to use the functionali
 * Create a backup of client.dll in `...\SteamLibrary\steamapps\common\NEOTOKYO\NeotokyoSource\bin\`
 * Download patched binaries (client.dll) from [sourcemod-nt-fovchanger/client/bin/](client/bin/)
 * Overwrite existing file in `...\SteamLibrary\steamapps\common\NEOTOKYO\NeotokyoSource\bin\`
-* Optional: run a LAA patcher such as NTCore's LAA patch to re-enable /LARGEADDRESSAWARE flag if you were using patched binaries before
 * Alternatively download the Python binary patcher script and follow [these instructions](https://github.com/Lilihierax/sourcemod-nt-fovchanger/tree/main/client/patch) to patch the file
 * Alternatively use a hex editor of your choice and follow [these instructions](https://github.com/Lilihierax/sourcemod-nt-fovchanger/tree/main/client/patch) to manually patch the file
 
