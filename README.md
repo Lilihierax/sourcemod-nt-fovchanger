@@ -49,9 +49,9 @@ I will not be held responsible for any damages, incl. changes in VAC standing, r
 * Issues and glitches caused by this modification can be reported as a GitHub issue or alternatively on Active Neotokyo Players ("ANP") [Discord server](https://discord.gg/JJBMzeqfdh)
 
 ## Authors
-* Plugin development by Rain
-* Patcher by Rain, Lilihierax
 * Original research and proof of concept plugin by Lilihierax
+* Plugin development by Rain
+* Patcher by Lilihierax
 * Additional thanks to Kudegra and Jef for their efforts in reverse engineering Neotokyo
 * Additional thanks to Dennogin and Milk for playtesting
 
