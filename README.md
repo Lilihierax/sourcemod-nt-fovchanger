@@ -17,7 +17,7 @@ Clients are required to use a patched client.dll in order to use the functionali
 * SourceMod 1.11 or newer
 
 ## Installation (Server)
-The repo contains the plugin as a `.sp` script, which has to be compiled to a `.smx` plugin binary using the SourceMod Plugin Compiler, available as a WebApp here: https://www.sourcemod.net/compiler.php
+* The repo contains the plugin as a `.sp` script, which has to be compiled to a `.smx` plugin binary using the SourceMod Plugin Compiler, available as a web app [here](https://www.sourcemod.net/compiler.php).
 * Move the compiled .smx binary to `...\addons\sourcemod\plugins\`
 
 ## Installation (Client)
