@@ -1,7 +1,7 @@
 ## Using the Python script
 
 * Download and install [Python](https://www.python.org/downloads/)
-* Run the script in Windows Command Prompt, PowerShell or similar including the path to your client.dll as an argument
+* Run the script from Windows Command Prompt, PowerShell or similar including the path to your client.dll as an argument
 * A backup of the original file will be created automatically in the same folder
 * For example: `python "C:/Users/Username/Desktop/nt_fovchanger_client_patch.py" "C:\Program Files (x86)\Steam\steamapps\common\NEOTOKYO\NeotokyoSource\bin\client.dll"`
 
